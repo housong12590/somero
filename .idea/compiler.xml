@@ -10,5 +10,9 @@
         <module name="somero-deploy" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="somero-data" target="1.8" />
+      <module name="somero-mbg" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

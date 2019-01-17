@@ -1,9 +1,10 @@
 package com.somero.deploy.service.impl;
 
 import com.somero.deploy.exception.UserException;
+import com.somero.deploy.mapper.UserMapper;
 import com.somero.deploy.model.User;
-import com.somero.deploy.repository.UserRepository;
 import com.somero.deploy.service.UserService;
+import com.somero.deploy.utils.SqlResultCheck;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,11 +13,12 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    UserRepository userRepository;
+    UserMapper userMapper;
 
     @Override
-    public User register(User user) {
-        return null;
+    public User register(User user) throws UserException {
+
+        return user;
     }
 
     @Override
@@ -41,6 +43,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findUser(int id) throws UserException {
-        return userRepository.findById(id).get();
+        return null;
     }
 }

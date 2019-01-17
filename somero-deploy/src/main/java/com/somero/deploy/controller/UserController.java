@@ -46,7 +46,6 @@ public class UserController {
             }
             return "user/detail";
         }
-        user.setId(id);
         try {
             userService.update(user);
         } catch (UserException e) {
