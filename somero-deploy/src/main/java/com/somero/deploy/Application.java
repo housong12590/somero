@@ -1,14 +1,15 @@
 package com.somero.deploy;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@MapperScan("com.somero.deploy.mapper")
+@MapperScan("com.somero.deploy.mapper")
 @SpringBootApplication
-public class SomeroDeployApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SomeroDeployApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }

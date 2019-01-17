@@ -14,7 +14,6 @@ public class User implements Serializable {
 
     /**
      * 年龄
-
      *
      * @mbggenerated
      */
