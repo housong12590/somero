@@ -1,36 +1,31 @@
-package com.somero.deploy.model;
+package com.somero.deploy.param;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.somero.deploy.utils.JSON;
 
-import java.io.Serializable;
-import java.util.Date;
+import org.hibernate.validator.constraints.Length;
 
-public class User implements Serializable {
-    private Integer id;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 
+public class RegisterParam {
+
+    @Length(min = 3, max = 255, message = "用户名格式不正确,最小长度不低于3位")
+    @NotBlank(message = "用户名不能为空")
     private String username;
 
+    @Length(min = 6, max = 18, message = "密码由6~18位数字和字母组成")
+    @NotBlank(message = "密码不能为空")
     private String password;
 
+    @Pattern(regexp = "^1\\d{10}$", message = "手机号格式不正确")
+    @NotBlank(message = "手机号码不能为空")
     private String mobile;
 
+    @Email
     private String mail;
 
     private String realName;
-
-    @JsonFormat(pattern = "yyyy-MM-dd HH-mm-ss")
-    private Date createdAt;
-
-    private static final long serialVersionUID = 1L;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;
@@ -70,14 +65,6 @@ public class User implements Serializable {
 
     public void setRealName(String realName) {
         this.realName = realName;
-    }
-
-    public Date getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Date createdAt) {
-        this.createdAt = createdAt;
     }
 
     @Override

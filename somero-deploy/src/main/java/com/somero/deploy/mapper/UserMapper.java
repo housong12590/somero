@@ -1,32 +1,18 @@
 package com.somero.deploy.mapper;
 
 import com.somero.deploy.model.User;
-import com.somero.deploy.model.UserExample;
-
-import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
 
 public interface UserMapper {
 
-    @Select("select * from so_user where id = 0")
-    User findById();
-
-    @Select("select count(id) from so_user")
-    boolean isNotEmpty();
-
-    int countByExample(UserExample example);
-
-    int deleteByExample(UserExample example);
-
     int insert(User record);
 
-    int insertSelective(User record);
+    User findById(Integer id);
 
-    List<User> selectByExample(UserExample example);
+    boolean update(User user);
 
-    int updateByExampleSelective(@Param("record") User record, @Param("example") UserExample example);
+    boolean delete(Integer id);
 
-    int updateByExample(@Param("record") User record, @Param("example") UserExample example);
+    User findByCase(@Param("user") User user, @Param("filter") boolean filter);
 }

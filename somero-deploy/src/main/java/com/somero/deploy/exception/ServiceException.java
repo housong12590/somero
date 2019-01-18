@@ -1,10 +1,10 @@
 package com.somero.deploy.exception;
 
-public class UserException extends Exception {
+public class ServiceException extends RuntimeException {
 
     private int code = 1000;
 
-    public UserException(String message) {
+    public ServiceException(String message) {
         super(message);
     }
 

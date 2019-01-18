@@ -35,8 +35,11 @@
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.somero.deploy.mapper"
                              targetProject="somero-deploy\src\main\java"/>
-        <!--生成全部表tableName设为%-->
-        <table tableName="so_user" domainObjectName="User">
+
+        <table tableName="so_user" domainObjectName="User"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
         </table>
     </context>
 </generatorConfiguration>
