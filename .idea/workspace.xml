@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bcd31fc-9204-47bb-a271-acec639b4578" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/CommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/SqlResultCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somero-deploy/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/SomeroDeployApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/SomeroDeployApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/somero-deploy/src/test/java/com/somero/deploy/SomeroDeployApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/somero-deploy/src/test/java/com/somero/deploy/SomeroDeployApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/somero-deploy/target/" />
+    <ignored path="$PROJECT_DIR$/somero-data/target/" />
+    <ignored path="$PROJECT_DIR$/somero-mbg/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="somero@123.207.152.86" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="somero@123.207.152.86" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="somero@123.207.152.86" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="somero: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CommentGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/CommentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="23" column="95" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>index</find>
+      <find>CodeGenerator</find>
+      <find>mbg</find>
+      <find>CommentGenerator</find>
+      <find>@mbggenerated</find>
+      <find>insert</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\.m2\repository</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application.properties" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/ClassMergeUtils.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/component/BindingResultAspect.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/component/WebLogAspect.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/exception/UserException.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/resources/templates/user/index.html" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/resources/templates/user/detail.html" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/SomeroDeployApplication.java" />
+        <option value="$PROJECT_DIR$/somero-data/pom.xml" />
+        <option value="$PROJECT_DIR$/somero-mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/CommentGenerator.java" />
+        <option value="$PROJECT_DIR$/somero-mbg/src/main/resources/generator.properties" />
+        <option value="$PROJECT_DIR$/somero-mbg/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/Generator.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/test/java/com/somero/deploy/SomeroDeployApplicationTests.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/somero-deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/SqlResultCheck.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/MakerResp.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/User.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/CommentGenerator.java" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/somero-deploy/src/main/resources/generatorConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="mbg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somero" type="462c0819:PsiDirectoryNode" />
+              <item name="somero-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="G:/android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="E:/.m2/repository" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\code\service\somero\somero-deploy\src\main\resources" />
+      <recent name="G:\code\service\somero\somero-deploy\src\main\java\com\somero\deploy\mbg" />
+      <recent name="G:\code\service\somero\somero-mbg\src\main\java\com\somero\mbg" />
+      <recent name="G:\code\service\somero\somero-mbg\src\main\resources" />
+      <recent name="G:\code\service\somero\somero-deploy\libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.somero.deploy.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\code\service\somero\somero-deploy\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Generator (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.somero.deploy.mbg.Generator" />
+      <module name="somero-deploy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.somero.deploy.mbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.somero.mbg.Generator" />
+      <module name="somero-mbg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.somero.mbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SomeroDeployApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="somero-deploy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.somero.deploy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.somero.deploy" />
+      <option name="MAIN_CLASS_NAME" value="com.somero.deploy.SomeroDeployApplicationTests" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SomeroDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="somero-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.somero.data.SomeroDataApplication" />
+    </configuration>
+    <configuration name="SomeroDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="somero-deploy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.somero.deploy.SomeroDeployApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SomeroDeployApplication" />
+      <item itemvalue="Spring Boot.SomeroDataApplication" />
+      <item itemvalue="JUnit.SomeroDeployApplicationTests.test01" />
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Application.Generator (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator (1)" />
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="JUnit.SomeroDeployApplicationTests.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bcd31fc-9204-47bb-a271-acec639b4578" name="Default" comment="" />
+      <created>1547541488237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547541488237</updated>
+      <workItem from="1547541491879" duration="5152000" />
+      <workItem from="1547609098141" duration="7705000" />
+      <workItem from="1547689329850" duration="1277000" />
+      <workItem from="1547722488601" duration="2873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SomeroDeployApplicationTests_test01 - 2019.01.16 at 11h 42m 42s.xml">
+      <configuration name="SomeroDeployApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SomeroDeployApplicationTests_test01 - 2019.01.16 at 11h 52m 23s.xml">
+      <configuration name="SomeroDeployApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SomeroDeployApplicationTests_test01 - 2019.01.16 at 11h 53m 35s.xml">
+      <configuration name="SomeroDeployApplicationTests.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17007000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45576707" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32922733" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/component/BindingResultAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/conditions/query/QueryWrapper.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="235" column="72" selection-start-line="235" selection-start-column="64" selection-end-line="235" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/codegen/CodeGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3442">
+          <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/PythonCodeGenerator.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/conditions/query/LambdaQueryWrapper.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/toolkit/support/SFunction.class" />
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/SomeroDeployApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.java" />
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/mybatis-config.xml" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.pom" />
+    <entry file="file://$PROJECT_DIR$/somero-data/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/somero-data/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/SomeroMbgApplication.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/test/java/com/somero/mbg/SomeroMbgApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/resources/generator.properties" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/CommentGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/resources/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/Generator.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/model/UserExample.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/java/com/somero/mbg/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/src/main/resources/com/somero/mbg/mapper/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/somero-mbg/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/test/java/com/somero/deploy/SomeroDeployApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/generator.properties" />
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/component/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/SqlResultCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/utils/MakerResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/com/somero/deploy/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="911" column="9" lean-forward="true" selection-start-line="911" selection-start-column="9" selection-end-line="911" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/com/somero/deploy/mapper/ImagesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/SocketSummaryByEventName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/mapper/SoUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8172d07e-4f65-435c-98e5-1bc72d64025d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1446">
+          <caret line="224" column="9" lean-forward="true" selection-start-line="224" selection-start-column="9" selection-end-line="224" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8172d07e-4f65-435c-98e5-1bc72d64025d/schema/somero/table/so_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mbg/CommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="95" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/java/com/somero/deploy/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero-deploy/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>somero-deploy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
