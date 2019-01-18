@@ -86,6 +86,6 @@ public class MakerResp {
 
     @Override
     public String toString() {
-        return JsonUtil.objectToJson(this);
+        return JSON.toJsonString(this);
     }
 }

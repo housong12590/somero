@@ -1,7 +1,7 @@
 package com.somero.deploy.component;
 
 
-import com.somero.deploy.utils.JsonUtil;
+import com.somero.deploy.utils.JSON;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -54,7 +54,7 @@ public class WebLogAspect {
     //在方法执行完结后打印返回内容
     @AfterReturning(returning = "o", pointcut = "webLog()")
     public void doAfterReturning(Object o) {
-        logger.info("Response: " + JsonUtil.objectToJson(o));
+        logger.info("Response: " + JSON.toJsonString(o));
         logger.info("处理时间: " + (System.currentTimeMillis() - startTime.get()) + "ms");
     }
 

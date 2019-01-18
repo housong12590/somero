@@ -10,7 +10,7 @@ import java.util.List;
  * Jackson json序列化和反序列化工具类
  * Created by macro on 2018/4/26.
  */
-public class JsonUtil {
+public class JSON {
 
     // 定义jackson对象
     private static final ObjectMapper MAPPER = new ObjectMapper();
@@ -18,7 +18,7 @@ public class JsonUtil {
     /**
      * 将对象转换成json字符串。
      */
-    public static String objectToJson(Object data) {
+    public static String toJsonString(Object data) {
     	try {
             return MAPPER.writeValueAsString(data);
 		} catch (JsonProcessingException e) {

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
+<<<<<<< HEAD
     <data-source name="somero@123.207.152.86" uuid="8172d07e-4f65-435c-98e5-1bc72d64025d">
+=======
+    <data-source name="somero@123.207.152.86" uuid="f102c7a3-5d82-47df-a287-f33ccd4d358c">
+>>>>>>> f1f3610637081b034235cbaa55338d84307d8b43
       <database-info product="MySQL" version="5.7.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
